@@ -21,7 +21,7 @@ public class MathOperations{
         System.out.println("Sum of two integers: " + sI);
         double sD = operations.add(18.9, 23.42, 13.43);
         System.out.println("Sum of three doubles: " + sD);
-        String concatenatedString = operations.add("Hello, ", "How are you!?");
+        String concatenatedString = operations.add("Hello, ", "How are you?");
         System.out.println("Concatenation of two strings: " + concatenatedString);
     }
 }
